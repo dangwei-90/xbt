@@ -1,3 +1,5 @@
+(xbt搭建方法：https://blog.csdn.net/dangwei_90/article/details/111837420)
+
 XBT Tracker
 =============
 
@@ -31,13 +33,13 @@ XBT Tracker is a BitTorrent tracker written in C++. It's designed to offer high 
 
 ## API overview
 
-XBT Tracker listens on port 2710. 
+XBT Tracker listens on port 6969. 
 
-* The announce URL is `http://your.domain:2710/announce`.
-* The debug URL is `http://your.domain:2710/debug`. 
-* The scrape URL is `http://your.domain:2710/scrape`. 
-* The statistics URL is `http://your.domain:2710/statistics`. 
-* An experimental UDP tracker extension is also supported via announce URL `udp://your.domain:2710`.
+* The announce URL is `http://your.domain:6969/announce`.
+* The debug URL is `http://your.domain:6969/debug`. 
+* The scrape URL is `http://your.domain:6969/scrape`. 
+* The statistics URL is `http://your.domain:6969/statistics`. 
+* An experimental UDP tracker extension is also supported via announce URL `udp://your.domain:6969`.
 
 ## MySQL
 
